@@ -118,7 +118,7 @@
     max-width: calc(100% - 64px);
     margin-left: auto;
     margin-right: auto;
-    display: grid;
+    display: contents;
     justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-gap: 24px;
@@ -226,7 +226,7 @@
     margin-right: 8px;
   }
 }
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 320px) {
   .menu {
     display: grid;
   }
